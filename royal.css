@@ -1,0 +1,55 @@
+header
+{
+    background-color: chocolate;
+    color: darkred;
+    text-align: center ;
+    padding:15 px;
+    height: 150px;
+    
+}
+header h4
+{
+    font-style: italic;
+}
+header img
+{
+    float: left;
+    width:100px;
+    height:80px;
+    padding: 20px;
+
+}
+nav
+{ 
+    background-color: darkgray;
+    padding:15px;
+
+}
+nav a 
+{
+    color:burlywood;
+    text-decoration: none;
+    padding:25px;
+
+}
+article
+{
+    width: 31%;
+    float:left;
+    padding:10px;
+    text-align: justify;
+}
+section::after
+{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+footer
+{
+    background-color: lightcoral;
+    padding:15px;
+    color: white;
+    text-align: center;
+}
